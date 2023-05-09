@@ -1,0 +1,289 @@
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.tudo
+{
+    width: 60%;
+    height: 60vh;
+    background-color: bisque;
+    border-style: solid;
+    border-width: 5px;
+  
+}
+
+.fila
+{
+    width: 100%;
+    height: 7vh;   
+}
+
+.esc
+{
+    width:5%;
+    height: 5vh;
+    margin-top: 5px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+
+}
+
+.fila1
+{
+    width: 100%;
+    height: 10vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.primeira
+{
+    width: 5%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.back
+{
+    width: 9%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;   
+}
+
+.fila2
+{
+    width: 100%;
+    height: 10vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.psq
+{
+    width: 10%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;    
+}
+
+.terceira
+{
+    width: 5%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.enter
+{
+    width: 10%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;      
+}
+
+.tab
+{
+    width: 9%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;     
+}
+
+.segunda
+{
+    width: 5%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.fila3
+{
+    width: 100%;
+    height: 10vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.fila4
+{
+    width: 100%;
+    height: 10vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.shift
+{
+    width: 13%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;  
+}
+
+.quarta
+{
+    width: 5%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.fila5
+{
+    width: 100%;
+    height: 10vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ctrl
+{
+    width: 9%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.alt
+{
+    width: 9%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.space
+{
+    width: 40%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.alt2
+{
+    width: 5%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.ctrl2
+{
+    width: 5%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.esquerda
+{
+    width: 5%;
+    height: 100%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.esq
+{
+    width: 80%;
+    height: 3vh;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.meio
+{
+    width: 5%;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.mei
+{
+    width: 80%;
+    height: 3vh;
+    margin-top: 8px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.direita
+{
+    width: 5%;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.completar
+{
+    width: 100%;
+    height: 5vh;
+}
+
