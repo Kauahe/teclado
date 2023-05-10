@@ -8,15 +8,16 @@ body
     justify-items: center;
     align-content: center;
     align-items: center;
+    background-color: bisque;
 }
 .tudo
 {
-    width: 90%;
+    width: 80%;
     height: 60vh;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     border-style: solid;
     border-width: 5px;
-  
+    border-radius: 5px;
 }
 
 .fila
@@ -33,6 +34,7 @@ body
     margin-left: 15px;
     border-width: 2px;
     border-radius: 5px;
+    color: white;
 
 }
 
@@ -53,7 +55,8 @@ body
     margin-top: 8px;
     margin-left: 15px;
     border-width: 2px;
-    border-radius: 5px;   
+    border-radius: 5px;  
+    color: white; 
 }
 
 .fila2
@@ -73,7 +76,8 @@ body
     margin-top: 8px;
     margin-left: 15px;
     border-width: 2px;
-    border-radius: 5px;    
+    border-radius: 5px; 
+    color: white;   
 }
 
 .enter
@@ -83,7 +87,8 @@ body
     margin-top: 8px;
     margin-left: 15px;
     border-width: 2px;
-    border-radius: 5px;      
+    border-radius: 5px;  
+    color: white;    
 }
 
 .tab
@@ -93,7 +98,8 @@ body
     margin-top: 8px;
     margin-left: 15px;
     border-width: 2px;
-    border-radius: 5px;     
+    border-radius: 5px;  
+    color: white;   
 }
 
 .fila3
@@ -124,16 +130,19 @@ body
     margin-left: 15px;
     border-width: 2px;
     border-radius: 5px;  
+    color: white;
 }
 
 .quarta
 {
-    width: 3%;
+    width: 5%;
     height: 8vh;
     margin-top: 8px;
     margin-left: 15px;
     border-width: 2px;
     border-radius: 5px;
+    background-color: black;
+    color: white;
 }
 .fila5
 {
@@ -174,26 +183,6 @@ body
     border-radius: 5px;
 }
 
-.alt2
-{
-    width: 5%;
-    height: 8vh;
-    margin-top: 8px;
-    margin-left: 15px;
-    border-width: 2px;
-    border-radius: 5px;
-}
-
-.ctrl2
-{
-    width: 5%;
-    height: 8vh;
-    margin-top: 8px;
-    margin-left: 15px;
-    border-width: 2px;
-    border-radius: 5px;
-}
-
 .esquerda
 {
     width: 5%;
@@ -213,6 +202,7 @@ body
     height: 3vh;
     border-width: 2px;
     border-radius: 5px;
+    color: white;
 }
 
 .meio
@@ -226,6 +216,7 @@ body
     justify-items: center;
     align-content: center;
     align-items: center;
+    color: white;
 }
 
 .mei
@@ -235,6 +226,7 @@ body
     margin-top: 8px;
     border-width: 2px;
     border-radius: 5px;
+    color: white;
 }
 
 .direita
@@ -255,76 +247,4 @@ body
 {
     width: 100%;
     height: 5vh;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: #f3f3f3;
-}
-
-.quarta {
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
-
-.quarta:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-.quarta:active {
-    color: #000
-}
-
-.quarta:active:after {
-    background: transparent;
-}
-
-.quarta:hover:before {
-    opacity: 1;
-}
-
-.quarta:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
 }
