@@ -133,17 +133,7 @@ body
     color: white;
 }
 
-.quarta
-{
-    width: 5%;
-    height: 8vh;
-    margin-top: 8px;
-    margin-left: 15px;
-    border-width: 2px;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-}
+
 .fila5
 {
     width: 100%;
@@ -248,3 +238,46 @@ body
     width: 100%;
     height: 5vh;
 }
+
+button
+{
+    width: 5%;
+    height: 8vh;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    animation: button 3s linear infinite;
+}
+
+@keyframes button {
+    0%
+     {
+      border-color: rgb(245, 245, 104)
+    }
+  
+    25% 
+    {
+      border-color:rgb(77, 245, 197);
+    }
+  
+    50% 
+    {
+      border-color:  rgb(68, 199, 255);
+    }
+    
+    75%
+     {
+      border-color:rgb(54, 54, 255);
+    }
+  
+    100% 
+    {
+      border-color:rgb(215, 84, 254);
+    }
+  
+  }
+
+  
